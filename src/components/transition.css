@@ -1,0 +1,51 @@
+.Title-fade-appear {
+  transform: translateX(-60%);
+}
+.Title-fade-appear-active {
+  transform: translateX(0);
+  transition: transform 250ms linear;
+}
+
+.Filter-fade-enter {
+  transform: translateY(-10%);
+}
+.Filter-fade-enter-active {
+  transform: translateY(0);
+  transition: transform 250ms linear;
+}
+.Filter-fade-exit {
+  opacity: 1;
+}
+.Filter-fade-exit-active {
+  opacity: 0;
+  transition: opacity 250ms linear;
+}
+
+.Item-fade-enter {
+  transform: translateX(-50%);
+}
+.Item-fade-enter-active {
+  transform: translateX(0);
+  transition: transform 250ms linear;
+}
+.Item-fade-exit {
+  transform: translateX(0);
+}
+.Item-fade-exit-active {
+  transform: translateX(-50%);
+  transition: transform 250ms linear;
+}
+.List-fade-enter {
+  transform: translateX(-50%);
+}
+.List-fade-enter-active {
+  transform: translateX(0);
+  transition: transform 250ms linear;
+}
+.Notification-fade-enter {
+  transform: translateX(50%);
+}
+.Notification-fade-enter-active {
+  transform: translateX(0);
+  transition: transform 250ms linear;
+}
